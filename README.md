@@ -1,2 +1,2 @@
 # Task1---KGandG
-https://sun9-14.userapi.com/impg/kgU-LjbtpAr4ooRur9B2gJBG7_T0V-XPCMPVdA/H0UFTQp3-q0.jpg?size=1173x785&quality=96&sign=31e7582dc683eece1f5893e83f2c6e8a&type=album
+![H0UFTQp3-q0](https://user-images.githubusercontent.com/71186521/135775572-82f2ae04-0687-4966-9874-d4112817b910.jpg)
