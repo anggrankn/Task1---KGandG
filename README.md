@@ -1,2 +1,2 @@
 # Task1---KGandG
-![H0UFTQp3-q0](https://user-images.githubusercontent.com/71186521/135775572-82f2ae04-0687-4966-9874-d4112817b910.jpg)
+![image](https://user-images.githubusercontent.com/71186521/137645474-8e82bf6e-115f-4f9c-9863-8c0761fe42d7.png
