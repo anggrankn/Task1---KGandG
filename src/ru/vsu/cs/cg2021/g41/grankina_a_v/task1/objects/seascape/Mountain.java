@@ -11,8 +11,8 @@ public class Mountain extends DrawingObject {
     public Mountain(double constX, double constY, double constWidth, double constHeight, Color color) {
         super(constX, constY, constWidth, constHeight, color);
 
-        this.x = new double[] {constX, constX + constWidth * 0.5, constX + constWidth};
-        this.y = new double[] {constY, constY - constHeight, constY};
+        this.x = new double[]{constX, constX + constWidth * 0.5, constX + constWidth};
+        this.y = new double[]{constY, constY - constHeight, constY};
     }
 
     @Override

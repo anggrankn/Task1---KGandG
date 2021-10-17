@@ -31,7 +31,7 @@ public class DrawPanel extends JPanel {
         world.addDrawingObject(new PalmTree(0.5, 0.625, 0.066, 0.05));
         world.addDrawingObject(new PalmTree(0.583, 0.5, 0.066, 0.05));
 
-        //world.addDrawingObject(new Ocean(0,0.5,0.333, 0.5));
+        world.addDrawingObject(new Ocean(0,0.5,0.333, 0.5));
     }
 
     @Override

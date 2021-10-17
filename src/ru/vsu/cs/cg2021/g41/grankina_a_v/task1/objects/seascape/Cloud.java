@@ -1,6 +1,7 @@
 package ru.vsu.cs.cg2021.g41.grankina_a_v.task1.objects.seascape;
 
 import ru.vsu.cs.cg2021.g41.grankina_a_v.task1.objects.DrawingObject;
+
 import java.awt.*;
 
 public class Cloud extends DrawingObject {
@@ -16,14 +17,22 @@ public class Cloud extends DrawingObject {
         Color oldColor = g.getColor();
 
         g.setColor(new Color(0xF3EFEF));
-        g.fillOval((int)(constX * panelWidth), (int)(constY * panelHeight), width, height);
-        g.fillOval((int)((constX + 0.025) * panelWidth), (int)((constY - 0.0125) * panelHeight),width, height);
-        g.fillOval((int)((constX + 0.05) * panelWidth), (int)((constY - 0.025) * panelHeight), width, height);
-        g.fillOval((int)((constX + 0.075) * panelWidth), (int)((constY - 0.0125) * panelHeight), width, height);
-        g.fillOval((int)((constX + 0.1) * panelWidth), (int)((constY) * panelHeight), width, height);
-        g.fillOval((int)((constX + 0.075) * panelWidth), (int)((constY + 0.0125) * panelHeight), width, height);
-        g.fillOval((int)((constX + 0.05) * panelWidth), (int)((constY + 0.0125) * panelHeight),width, height);
-        g.fillOval((int)((constX + 0.025) * panelWidth), (int)((constY + 0.0125) * panelHeight),width, height);
+        double a = 0;
+        double b = 0;
+        double c = 0.0125;
+        for (int i = 0; i <= 4; i++) {
+            if (i <= 2) {
+                g.fillOval((int) ((constX + a) * panelWidth), (int) ((constY - b) * panelHeight), width, height);
+                b += 0.0125;
+            } else {
+                g.fillOval((int) ((constX + a) * panelWidth), (int) ((constY - c) * panelHeight), width, height);
+                c -= 0.0125;
+            }
+            a += 0.025;
+            if (i <= 3) {
+                g.fillOval((int) ((constX + a) * panelWidth), (int) ((constY) * panelHeight), width, height);
+            }
+        }
 
         g.setColor(oldColor);
     }
